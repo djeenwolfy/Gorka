@@ -70,8 +70,7 @@ header div.container div.row{
 	border-radius: 0px 0px 0px 37px;
 	background: #92278F;
 }
-nav{
-	
+nav{	
 	border:none;
 	height: 49px;
 	box-shadow: none;
@@ -81,6 +80,7 @@ nav.main-nav{
 	margin-left: 90px;
 	width: 70%;
 }
+
 nav ul li a{
 	font-size: 19px;
 	font-weight: 555;

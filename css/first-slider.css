@@ -1,0 +1,12 @@
+.first-slider-box{
+	width: 100%;
+	background-color: white;
+	min-height: 950px;
+}
+#SlideR #SlideS{
+	background-color: transparent;
+}
+#SlideS li img{
+	box-shadow:0 0 0 500px rgba(0, 0, 0, 0.30) inset;
+
+}

@@ -5,7 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<title>Горка21</title>
 	<!-- CSS  -->
-	<link rel="stylesheet" href="bxslider-4-4.2.12/src/css/jquery.bxslider.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -13,6 +12,7 @@
 
 <body>
 	<header >
+		<div class="mobile_btn">	<a href="#" data-target="nav-mobile" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a></div>
 		<div class="container" id="head">
 			<span class="way"><p>Как добраться</p></span>
 			<div class="row valign-wrapper" >
@@ -31,10 +31,10 @@
 
 		</div>
 
-		<div class="navi-wrap">
+		<div class="navi-wrap hide-on-med-and-down">
 			<div class="sub-navi-wrap">
 				<nav class="valign-wrapper">
-					<ul class="">
+					<ul class=" ">
 						<li><a href="">Лыжи</a></li>
 						<li><a href="">Одежда</a></li>
 						<li><a href="">Обувь</a></li>
@@ -42,13 +42,45 @@
 						<li><a href="">Велосипеды</a></li>
 						<li><a href="">Прочее</a></li>
 					</ul>
+
 				</nav>
+				
 			</div>
 		</div>
+		<nav>		
+			<ul id="nav-mobile" class="sidenav">
+				<li><a href="">Лыжи</a></li>
+				<li><a href="" target="_blank">Одежда</a></li>
+				<li><a href="" target="_blank">Обувь</a></li>
+				<li><a href="" target="_blank">Аксессуары</a></li>
+				<li><a href="" target="_blank">Велосипеды</a></li>
+				<li><a href="" target="_blank">Прочее</a></li>
+			</ul>						
+		</nav>
 	</header>
 
 
 	<main>
+		<div class="">
+		<div class="slider container">
+    <ul class="slides">
+      <li>
+        <img src="img/skiing1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>Новейшие технологии!</h3>
+          <h5 class="light grey-text text-lighten-3">Да забей.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="img/ochki-ski.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  </div>
 		<div class="catalog-bg valign-wrapper">
 			<div class="container">
 				<div class="catalog-text center">
@@ -73,10 +105,7 @@
 
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="bxslider-4-4.2.12/src/js/jquery.bxslider.js"></script>
 	<script src="js/materialize.js"></script>
 	<script src="js/init.js"></script>
-
 </body>
 </html>

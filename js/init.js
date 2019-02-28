@@ -1,7 +1,8 @@
 (function($){
   $(function(){
   	 $('.slider').slider({
-  	 	interval:5000,
+  	 	interval:2000,
+  	 	height: 642
   	 });
     $('.sidenav').sidenav();
   }); // end of document ready

@@ -21,8 +21,8 @@
 	grid-gap: 15px;
 }
 .catalog-item{
-	min-height: 300px;
-	min-width: 300px;
+	min-height: 280px;
+	min-width: 280px;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;

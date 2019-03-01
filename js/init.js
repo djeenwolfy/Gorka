@@ -1,7 +1,7 @@
 (function($){
   $(function(){
   	 $('.slider').slider({
-  	 	interval:2000,
+  	 	interval:3500,
   	 	height: 642
   	 });
     $('.sidenav').sidenav();

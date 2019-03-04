@@ -5,6 +5,7 @@
   	 	height: 642
   	 });
     $('.sidenav').sidenav();
+    VK.Widgets.Group("vk_groups", {mode: 1, width: "500"}, 48288021);
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 

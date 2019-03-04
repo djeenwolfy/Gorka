@@ -21,7 +21,17 @@
 	.catalog-bg{
 	min-height: 950px;
 	}
+	#Search{
+		margin-left: 9%;
+	}
 }
+
+@media only screen and (max-width: 1342px){
+	#Seachstr{
+	max-width: 60%;
+	}
+}
+
 @media only screen and (max-width: 1280px){
 	.catalog-item{
 	min-height: 180px;
@@ -38,12 +48,22 @@
 	}
 }
 @media only screen and (max-width: 1200px){
-	#Seachstr{
-	max-width: 60%;
+	#Search{
+		width: 50%;	
 	}
 }
 @media only screen and (max-width: 992px){
+	.main-logo{
+		text-align: center;
+		width: 100%;
+	}
 	
+	header{
+		height: 150px;
+	}
+	.first-slider-box{
+		height: 
+	}
 }
 @media only screen and (max-width: 768px){
 	

@@ -77,12 +77,12 @@ nav{
 	background: transparent;
 }
 nav.main-nav{
-	margin-left: 90px;
+	margin-left: 9%;
 	width: 70%;
 }
 
 nav ul li a{
-	font-size: 19px;
+	font-size: 1.3em;
 	font-weight: 555;
 	text-align: center;
 	line-height: 2.68;

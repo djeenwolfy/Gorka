@@ -1,0 +1,21 @@
+footer{
+height: 160px;
+background-color: #030264;
+
+}
+footer ul li a {
+	color: white;
+}
+footer{
+	color:white;
+}
+#footer{
+	margin-bottom: 0;
+}
+.logo-footer p{
+	padding-top: 20px;
+}
+#footer div{
+	padding-top: 15px;
+	height: 145px;
+}

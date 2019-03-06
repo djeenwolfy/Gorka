@@ -1,5 +1,5 @@
 footer{
-height: 160px;
+min-height: 160px;
 background-color: #030264;
 
 }
@@ -9,13 +9,25 @@ footer ul li a {
 footer{
 	color:white;
 }
+.about-us{
+	margin: auto;
+}
 #footer{
 	margin-bottom: 0;
 }
-.logo-footer p{
-	padding-top: 20px;
+.logo-footer{
+	margin: auto;
+	padding-top: 60px;
 }
+
 #footer div{
-	padding-top: 15px;
-	height: 145px;
+	padding: 15px;
+	
+}
+.copyright-info{
+	padding-bottom: 1px;
+	margin: 0 auto;
+}
+.copyright-info p{
+	margin: 0;
 }

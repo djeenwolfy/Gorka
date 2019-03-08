@@ -92,7 +92,21 @@ nav ul{
 	max-width: 100%;
 }
 .mobile_btn{
-	position: absolute;
+	position: fixed;
+	top: 30px;
+	left: 10px;
+	z-index: 998;
 }
 
+#float-btn-menu{
+	background-color: #92278F ; 
+}
 
+/*======== dropdowns =============*/
+
+ul.dropdown-content{
+	min-width: 150px;
+}
+.dropdown-content li > a{
+	color: #05037E;
+}

@@ -13,11 +13,13 @@
 
 <body>
 	<header >
-		<div class="mobile_btn">	<a href="#" data-target="nav-mobile" class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a></div>
+		
+		<div class="mobile_btn "><a href="#" id="float-btn-menu" 	data-target="nav-mobile" class="sidenav-trigger hide-on-large-only btn-floating btn-medium"><i class="material-icons">menu</i></a></div>
+	
 		<div class="container" id="head">
-			<span class="way hide-on-med-and-down"><p>Как добраться</p></span>
+			<span class="way hide-on-med-and-down"><p><a href="">Как добраться</a></p></span>
 			<div class="row valign-wrapper" id="header-content">
-				<div class="col xl4" id="main-logo"><img src="img/logogorka_bel.png" width="230">
+				<div class="col xl4" id="main-logo"><a href="index.html"><img src="img/logogorka_bel.png" width="230"></a>
 				</div><!-- LOGO -->
 				
 				<div class="col xl9" id="Search">
@@ -33,20 +35,21 @@
 			<div class="sub-navi-wrap">
 				<nav class="valign-wrapper main-nav">
 					<ul class="">
-						<li><a href="">Лыжи</a></li>
-						<li><a href="">Одежда</a></li>
-						<li><a href="">Обувь</a></li>
-						<li><a href="">Аксессуары</a></li>
-						<li><a href="">Велосипеды</a></li>
-						<li><a href="">Прочее</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='ski'>Лыжи</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='clothes'>Одежда</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='shoes'>Обувь</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='accesour'>Аксессуары</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='bikes'>Велосипеды</a></li>
+						<li><a href="" class='dropdown-trigger' data-target='others'>Прочее</a></li>
 					</ul>
 				</nav>				
 			</div>
 		</div>
+
 		<!-- ============== mobile menu ================== -->
 		<nav>		
 			<ul id="nav-mobile" class="sidenav">
-				<li><a href="">Лыжи</a></li>
+				<li><a href="" >Лыжи</a></li>
 				<li><a href="" target="_blank">Одежда</a></li>
 				<li><a href="" target="_blank">Обувь</a></li>
 				<li><a href="" target="_blank">Аксессуары</a></li>
@@ -56,7 +59,76 @@
 				<li><a href="" target="_blank">Как добраться</a></li>
 			</ul>						
 		</nav>
+	<!-- ================= dropdowns menu =================-->
+		<ul id='ski' class='dropdown-content'>
+    		<li><a href="#!">Лыжи</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Лыжные ботинки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Лыжные палки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Лыжероллеры</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Смазка для лыж</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+  		<ul id='clothes' class='dropdown-content'>
+    		<li><a href="#!">Лыжные комбинезоны</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Разминочные костюмы</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Беговая форма</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Термобелье</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Куртки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+  		<ul id='shoes' class='dropdown-content'>
+    		<li><a href="#!">Лыжные ботинки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Зимняя обувь</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Кроссовки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+  		<ul id='accesour' class='dropdown-content'>
+    		<li><a href="#!">Очки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Банданы повязки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Перчатки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Носки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Пульсометры</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Часы</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+  		<ul id='bikes' class='dropdown-content'>
+    		<li><a href="#!">Велосипеды</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Велоаксессуары</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Велозапчасти</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+  		<ul id='others' class='dropdown-content'>
+    		<li><a href="#!">Спортивные сумки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Рюкзаки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Термобочки</a></li>
+    		<li class="divider" tabindex="-1"></li>
+    		<li><a href="#!">Чехлы</a></li>
+    		<li class="divider" tabindex="-1"></li>
+  		</ul>
+
+
 	</header>
+
+
 	<main>
 		<!-- ============== first slider ============== -->
 		<div class="first-slider-box valign-wrapper">
@@ -202,8 +274,8 @@
 							<img src="img/sourse-items/6item-wover.png" width="100%" />
 							<figcaption>
 								
-								<h2>Туристический<br><span>инвентарь</span></h2>
-								<p>туристический инвентарь</p>
+								<h2><br><span>Прочее</span></h2>
+								<p>Различные товары</p>
 								<a href="#">View more</a>
 							</figcaption>			
 						</figure>
@@ -245,10 +317,10 @@
 	
 	<div class="Widget-container container">
 		<div class="row">
-			<div class="col xl6 s12 center widget">
+			<div class="col xl6 s12 center vkwidget">
 				<div class='center' id="vk_groups"></div>
 			</div>
-			<div class="col xl6 s12 center">
+			<div class="col xl6 s12 center instawidget">
 				<!-- <a href="https://instawidget.net/v/user/gorca21.ru" id="link-61ecbce8dce4f675d5b69437bb843789c7b65541c734729723356e5007c16a76">@gorca21.ru</a> -->
 				<script src="https://instawidget.net/js/instawidget.js?u=61ecbce8dce4f675d5b69437bb843789c7b65541c734729723356e5007c16a76&width=400px"></script>
 			</div>

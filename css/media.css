@@ -122,6 +122,9 @@
 	.first-slider-box{
 	min-height: 770px;
 	}
+	.second-slider-box{
+	 min-height: 700px;
+}
 }
 
 
@@ -192,6 +195,16 @@
 	.catalog-bg{
 	min-height: 2100px;
 	}
+	#Search{
+		display: none;			
+	}
+	#main-logo{
+		width: 90%;
+		text-align: center;
+	}
+	.mobile-btn-search{
+	display: block;
+}
 }
 
 
